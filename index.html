@@ -1,13 +1,112 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <title>My First Pages.dev Site</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>78WIN - Giải Trí & Kiếm Tiền Pro Max</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <style>
+    .flash-glow {
+      animation: glow 1.2s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from { box-shadow: 0 0 8px #facc15, 0 0 16px #f43f5e; }
+      to { box-shadow: 0 0 16px #facc15, 0 0 32px #f43f5e; }
+    }
+  </style>
 </head>
-<body>
-  <h1>Hello World từ Cloudflare Pages!</h1>
-  <button onclick="chao()">Nhấn chơi</button>
-  <script src="script.js"></script>
+<body class="bg-gradient-to-tr from-zinc-900 via-black to-zinc-800 text-white font-sans scroll-smooth">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-black/70 shadow-md">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
+      <h1 class="text-3xl font-extrabold text-yellow-400 tracking-wider">78WIN</h1>
+      <nav class="space-x-4 text-sm md:text-base font-medium">
+        <a href="#games" class="hover:text-yellow-400 transition">Game</a>
+        <a href="#commission" class="hover:text-yellow-400 transition">Hoa Hồng</a>
+        <a href="#register" class="hover:text-yellow-400 transition">Đăng Ký</a>
+        <a href="#faq" class="hover:text-yellow-400 transition">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center bg-gradient-to-br from-yellow-400 via-pink-500 to-red-500 text-center px-4">
+    <h2 class="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg">78WIN - Cuộc Chơi Đỉnh Cao</h2>
+    <p class="text-lg md:text-2xl mb-6 font-medium">Game gì cũng có - Tiền gì cũng kiếm được!</p>
+    <a href="https://www.78win6.art/?uagt=tuquangnam&path=signup" class="flash-glow bg-black text-yellow-400 px-8 py-4 rounded-full text-xl font-bold transition duration-300 hover:scale-105">🎯 Tham Gia Ngay</a>
+  </section>
+
+  <!-- Animation Section -->
+  <section class="bg-zinc-900 py-14 text-center">
+    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ydo1amjm.json" background="transparent" speed="1" style="width: 300px; height: 300px; margin: auto;" loop autoplay></lottie-player>
+    <h3 class="text-3xl font-semibold mt-6">Đăng Ký Siêu Nhanh - Nhận Quà Siêu Ngầu 🎁</h3>
+  </section>
+
+  <!-- Game List -->
+  <section id="games" class="py-14 px-6 max-w-7xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-10 text-yellow-400">🎮 Danh Mục Game Hot</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <a href="https://www.78win6.art/?uagt=tuquangnam&path=signup" class="bg-yellow-300 text-black p-4 rounded-2xl font-bold hover:scale-105 transition">🎫 Đăng Kí</a>
+      <a href="https://www.78win6.art/?uagt=tuquangnam&path=live" class="bg-yellow-500 p-4 rounded-2xl font-bold hover:scale-105">🃏 Casino</a>
+      <a href="https://www.78win6.art/?uagt=tuquangnam&path=animal" class="bg-red-500 p-4 rounded-2xl hover:scale-105">🐔 Đá Gà</a>
+      <a href="https://www.78win6.art/?uagt=tuquangnam&path=egame" class="bg-blue-500 p-4 rounded-2xl hover:scale-105">🎰 Slot</a>
+      <a href="https://www.78win6.art/?uagt=tuquangnam&path=mpg" class="bg-green-500 p-4 rounded-2xl hover:scale-105">🐟 Bắn Cá</a>
+      <a href="https://www.78win6.art/?uagt=tuquangnam&path=chess" class="bg-pink-500 p-4 rounded-2xl hover:scale-105">🀄 Game Bài</a>
+      <a href="https://www.78win6.art/?uagt=tuquangnam&path=sports" class="bg-purple-600 p-4 rounded-2xl hover:scale-105">⚽ Thể Thao</a>
+      <a href="https://www.78win6.art/?uagt=tuquangnam&path=esports" class="bg-indigo-600 p-4 rounded-2xl hover:scale-105">🎮 E-Sports</a>
+      <a href="https://www.78win6.art/?uagt=tuquangnam&path=lottery" class="bg-orange-400 p-4 rounded-2xl hover:scale-105">🎲 Xổ Số</a>
+    </div>
+  </section>
+
+  <!-- Commission Section -->
+  <section id="commission" class="bg-zinc-800 py-14 px-6 text-center">
+    <h2 class="text-4xl font-bold mb-6 text-yellow-400">💰 Hoa Hồng Lên Đến 60%</h2>
+    <p class="mb-8 text-lg font-medium">Mời bạn bè chơi, bạn kiếm được tiền thật!</p>
+    <div class="overflow-x-auto">
+      <table class="mx-auto text-sm md:text-base border border-gray-600 shadow-lg rounded-xl overflow-hidden">
+        <thead class="bg-zinc-700 text-white">
+          <tr>
+            <th class="px-6 py-3 border">Lợi nhuận ròng</th>
+            <th class="px-6 py-3 border">Hội viên hợp lệ</th>
+            <th class="px-6 py-3 border">Tỉ lệ hoa hồng</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-zinc-900"><td class="px-6 py-3 border">1+</td><td class="px-6 py-3 border">3+</td><td class="px-6 py-3 border">35%</td></tr>
+          <tr class="bg-zinc-800"><td class="px-6 py-3 border">5+</td><td class="px-6 py-3 border">5+</td><td class="px-6 py-3 border">45%</td></tr>
+          <tr class="bg-zinc-900"><td class="px-6 py-3 border">100,000+</td><td class="px-6 py-3 border">10+</td><td class="px-6 py-3 border">50%</td></tr>
+          <tr class="bg-zinc-800"><td class="px-6 py-3 border">1,000,000+</td><td class="px-6 py-3 border">20+</td><td class="px-6 py-3 border">55%</td></tr>
+          <tr class="bg-zinc-900"><td class="px-6 py-3 border">5,000,000+</td><td class="px-6 py-3 border">30+</td><td class="px-6 py-3 border">60%</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Register CTA -->
+  <section id="register" class="py-14 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-black text-center">
+    <h2 class="text-3xl font-extrabold mb-4">🚀 Bắt Đầu Kiếm Tiền Cùng 78WIN</h2>
+    <p class="mb-6 text-lg font-medium">Chỉ vài cú click - bạn đã trở thành đại lý siêu cấp!</p>
+    <a href="https://t.me/tuquangnam07" class="bg-black text-white px-8 py-4 rounded-2xl font-bold text-lg flash-glow transition hover:scale-105">💬 INBOX ADMIN Ngay</a>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="bg-zinc-90 py-14 px-6 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-center">🧠 Câu Hỏi Thường Gặp</h2>
+    <div class="space-y-6 text-left">
+      <div><strong>❓ Làm sao để nhận hoa hồng?</strong><br/>Chỉ cần kéo người chơi thật là bạn có hoa hồng mỗi tháng.</div>
+      <div><strong>❓ Rút tiền như thế nào?</strong><br/>Tiền hoa hồng được chuyển khoản ngân hàng trước ngày 10 hàng tháng.</div>
+      <div><strong>❓ Cần bao nhiêu người để có tiền?</strong><br/>Chỉ cần có từ 3 người chơi thật là bắt đầu nhận hoa hồng.</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-center py-6 text-sm text-gray-400">
+    <p>© 2025 78WIN | Build by <span class="text-yellow-400 font-bold">TuQuangNam ⚡</span></p>
+    <p>CSKH: <a href="https://t.me/tuquangnam07" class="underline text-blue-400">Telegram Đại Lý</a></p>
+    <p class="text-red-500 mt-2">⚠️ Cảnh giác giả mạo! Chỉ dùng link chính thức.</p>
+  </footer>
+
 </body>
 </html>
